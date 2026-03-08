@@ -15,7 +15,9 @@ This project is a scalable automation framework built with Python and Async Play
    playwright install chromium
    ```
 
-2. Run the tests:
+2. Run the automation scripts:
    ```bash
-   pytest tests/
+   python src/task1-3/stealth.py
+   python src/task1-3/interceptor.py
+   python src/task1-3/scraper.py
    ```
