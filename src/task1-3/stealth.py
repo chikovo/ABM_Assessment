@@ -10,7 +10,6 @@ def run_turnstile_attempt(mode):
     with SB(uc= True, headless2=mode) as sb:
         sb.uc_open_with_reconnect("http://cd.captchaaiplus.com/turnstile.html",5)
         # Handle the CAPTCHA if it appears
-        # sb.uc_gui_click_captcha()
         
         # 3. GET THE BRIDGE ADDRESS
         # We extract the specific port Chrome is listening on

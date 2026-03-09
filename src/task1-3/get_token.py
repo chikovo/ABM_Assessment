@@ -31,4 +31,4 @@ def get_Token():
     return token            
 
 if __name__ == "__main__":
-    main()
+    print(get_Token())
